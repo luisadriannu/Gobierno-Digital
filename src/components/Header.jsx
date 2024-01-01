@@ -36,7 +36,7 @@ export default function Header() {
           >
             <span>Inicio</span>
           </NavLink>
-          <h2 className="text-[#2E3057] text-4xl font-bold text-center w-full pr-6">
+          <h2 className="text-[#2E3057] text-4xl font-bold text-center w-full">
             Pokédex
           </h2>
         </div>

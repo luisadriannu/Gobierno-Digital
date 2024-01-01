@@ -19,7 +19,7 @@ export default function Details() {
   }
 
   if (!data) {
-    return <div>No data found</div>;
+    return <div>No se han podido encontrar los datos</div>;
   }
 
   const mainType = data?.types?.[0]?.type?.name;
