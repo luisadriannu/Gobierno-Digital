@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f5fbfb;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.content-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
